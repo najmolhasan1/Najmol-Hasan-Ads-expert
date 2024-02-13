@@ -277,7 +277,7 @@ header.sticky .nav_bar{
     max-width: 500px;
     text-align: justify;
 }
-.btn{
+.home_container .info .btn{
     background-color: var(--second-color);
     color: #fff;
     font-size: var(--normal-font-size);
@@ -1786,7 +1786,7 @@ margin-top: 50px;
         flex-direction: row;
         /* margin-left: 20px; */
         gap: 30px;
-        transform: translate(200px, -60px);
+        transform: translate(150px, -60px);
     }
     .home_container .media_icons a{
         color: var(--second-color);
@@ -1828,10 +1828,15 @@ margin-top: 50px;
         font-weight: 500;
         display: inline-block;
         margin-top: 25px;
-        margin-left: -px;
+        margin-left: 250px;
         padding: 15px 25px;
         letter-spacing: 1px;
         border-radius: 15px;
+    }
+    .home_container .info .btn{
+
+        margin-left: -200px;
+
     }
     #btn:hover{
         background-color: var(--hover-color);
@@ -2123,6 +2128,7 @@ margin-top: 50px;
     /* sevices section starts here */
     .services .container .content{
         max-width: 100%;
+        
     
     }
     .services_description h3{
